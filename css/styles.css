@@ -47,7 +47,7 @@ img {
 /*header*/
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -247,8 +247,6 @@ img {
   padding-bottom: 94px;
   background: var(--team-background);
 }
-.team-container {
-}
 .team-title {
   margin-bottom: 50px;
   text-align: center;
@@ -343,13 +341,14 @@ img {
   letter-spacing: 0.03em;
   font-style: normal;
 }
+.address-list > .address-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
 .address-address {
-  padding-bottom: 9px;
   color: var(--color-section-title);
   text-decoration: none;
 }
 .address-mail {
-  padding-bottom: 9px;
   color: var(--color-footer-mail);
   text-decoration: none;
 }
